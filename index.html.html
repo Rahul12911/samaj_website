@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>अखिल भारतीय चढ़ार समाज संघठन भारत पंजीकरण फॉर्म</title>
+    <link rel="stylesheet" href="chadar_samaj.css">
+</head>
+<body>
+    <div class="container">
+        <form id="registrationForm" class="registration-form">
+            <h2>अखिल भारतीय चढ़ार समाज संघठन भारत पंजीकरण फॉर्म</h2>
+            <div class="form-group">
+                <label for="name">Full Name/ नाम</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                <span class="error-message" id="nameError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number/फ़ोन नंबर</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+                <span class="error-message" id="phoneError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="district">District Name/जिले का नाम</label>
+                <input type="text" id="district" name="district" placeholder="Enter your district" required>
+                <span class="error-message" id="districtError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address/ईमेल आईडी</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                <span class="error-message" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address/पता</label>
+                <input type="text" id="address" name="address" placeholder="Enter your address" required>
+                <span class="error-message" id="addressError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="age">Age/आयु</label>
+                <input type="number" id="age" name="age" placeholder="Enter your age" required>
+                <span class="error-message" id="ageError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Gender/लिंग</label>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <span class="error-message" id="genderError"></span>
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <script src="chadar_samaj.js"></script>
+</body>
+</html>
